@@ -11,5 +11,8 @@ public class Mocha extends CondimentDecorator {
 		// TODO Auto-generated method stub
 		return beverage.getDescription() + ", Mocha";
 	}
-
+	
+	public double cost(){
+	return 0.20 + beverage.cost();
+	}
 }
